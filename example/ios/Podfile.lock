@@ -1,0 +1,177 @@
+PODS:
+  - AppMetrica_FMDB (5.2.0)
+  - AppMetrica_Protobuf (5.2.0)
+  - AppMetricaAdSupport (5.2.0):
+    - AppMetricaCore (= 5.2.0)
+    - AppMetricaCoreExtension (= 5.2.0)
+  - AppMetricaAnalytics (5.2.0):
+    - AppMetricaAdSupport (= 5.2.0)
+    - AppMetricaCore (= 5.2.0)
+    - AppMetricaCrashes (= 5.2.0)
+    - AppMetricaWebKit (= 5.2.0)
+  - AppMetricaCore (5.2.0):
+    - AppMetrica_FMDB (= 5.2.0)
+    - AppMetrica_Protobuf (= 5.2.0)
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaEncodingUtils (= 5.2.0)
+    - AppMetricaHostState (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+    - AppMetricaNetwork (= 5.2.0)
+    - AppMetricaPlatform (= 5.2.0)
+    - AppMetricaProtobufUtils (= 5.2.0)
+    - AppMetricaStorageUtils (= 5.2.0)
+  - AppMetricaCoreExtension (5.2.0):
+    - AppMetricaCore (= 5.2.0)
+    - AppMetricaStorageUtils (= 5.2.0)
+  - AppMetricaCoreUtils (5.2.0):
+    - AppMetricaLog (= 5.2.0)
+  - AppMetricaCrashes (5.2.0):
+    - AppMetricaCore (= 5.2.0)
+    - AppMetricaCoreExtension (= 5.2.0)
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaEncodingUtils (= 5.2.0)
+    - AppMetricaHostState (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+    - AppMetricaPlatform (= 5.2.0)
+    - AppMetricaProtobufUtils (= 5.2.0)
+    - AppMetricaStorageUtils (= 5.2.0)
+    - KSCrash/Recording (= 1.17.0)
+    - KSCrash/Recording/Tools
+  - AppMetricaEncodingUtils (5.2.0):
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+    - AppMetricaPlatform (= 5.2.0)
+  - AppMetricaHostState (5.2.0):
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+  - AppMetricaLog (5.2.0)
+  - AppMetricaNetwork (5.2.0):
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+    - AppMetricaPlatform (= 5.2.0)
+  - AppMetricaPlatform (5.2.0):
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+  - AppMetricaProtobufUtils (5.2.0):
+    - AppMetrica_Protobuf (= 5.2.0)
+  - AppMetricaStorageUtils (5.2.0):
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+  - AppMetricaWebKit (5.2.0):
+    - AppMetricaCore (= 5.2.0)
+    - AppMetricaCoreUtils (= 5.2.0)
+    - AppMetricaLog (= 5.2.0)
+  - Flutter (1.0.0)
+  - FMobileSdk (2.0.0-1231)
+  - FunctionalSwift (2.0.7)
+  - KSCrash/Recording (1.17.0):
+    - KSCrash/Recording/Tools (= 1.17.0)
+  - KSCrash/Recording/Tools (1.17.0)
+  - MoneyAuth (10.13.3):
+    - FMobileSdk
+    - FunctionalSwift (~> 2.0)
+    - YooMoneyCoreApi (~> 3.1)
+    - YooMoneySessionProfiler (~> 5.0)
+    - YooMoneyUI (~> 7.7)
+  - SPaySDK (1.0.9)
+  - yookassa_payments_flutter (1.4.0):
+    - Flutter
+    - YooKassaPayments (= 6.18.0)
+  - YooKassaPayments (6.18.0):
+    - AppMetricaAnalytics (~> 5.2.0)
+    - FMobileSdk (~> 2.0.0-1231)
+    - MoneyAuth (~> 10.13.0)
+    - SPaySDK (~> 1.0.8)
+    - YooKassaPaymentsApi (~> 2.22.0)
+    - YooKassaWalletApi (~> 2.6.0)
+    - YooMoneyCoreApi (~> 3.1)
+    - YooMoneySessionProfiler (~> 5.0.4)
+    - YooMoneyUI (~> 7.7)
+  - YooKassaPaymentsApi (2.22.0):
+    - FunctionalSwift
+    - YooMoneyCoreApi (~> 3.1.1)
+  - YooKassaWalletApi (2.6.0):
+    - FunctionalSwift
+    - YooMoneyCoreApi
+  - YooMoneyCoreApi (3.1.1):
+    - FunctionalSwift (~> 2.0)
+  - YooMoneySessionProfiler (5.0.4):
+    - FMobileSdk
+  - YooMoneyUI (7.7.6):
+    - FunctionalSwift
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - yookassa_payments_flutter (from `.symlinks/plugins/yookassa_payments_flutter/ios`)
+
+SPEC REPOS:
+  https://git.yoomoney.ru/scm/sdk/cocoa-pod-specs.git:
+    - FMobileSdk
+    - FunctionalSwift
+    - MoneyAuth
+    - YooKassaPayments
+    - YooKassaPaymentsApi
+    - YooKassaWalletApi
+    - YooMoneyCoreApi
+    - YooMoneySessionProfiler
+    - YooMoneyUI
+  https://github.com/CocoaPods/Specs.git:
+    - AppMetrica_FMDB
+    - AppMetrica_Protobuf
+    - AppMetricaAdSupport
+    - AppMetricaAnalytics
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaCrashes
+    - AppMetricaEncodingUtils
+    - AppMetricaHostState
+    - AppMetricaLog
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobufUtils
+    - AppMetricaStorageUtils
+    - AppMetricaWebKit
+    - KSCrash
+    - SPaySDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  yookassa_payments_flutter:
+    :path: ".symlinks/plugins/yookassa_payments_flutter/ios"
+
+SPEC CHECKSUMS:
+  AppMetrica_FMDB: 86a7247cecf4b315735b119f8547779bffca535a
+  AppMetrica_Protobuf: 326de64e6b52ab2cddce121c780461ac9eedb6c4
+  AppMetricaAdSupport: 1ebdf7d6f4555675aa776fb7fee5bd96ebef1dcf
+  AppMetricaAnalytics: bebf8c4f75c5015937b3e51f878b30693d293944
+  AppMetricaCore: 647efed7efaa8fad9e38aa417d95aeccaf8b0926
+  AppMetricaCoreExtension: 2b93264b869438d890df5bf6a69407fce5542e1c
+  AppMetricaCoreUtils: f6b3cfde963e1027e3044630e2fd7e1007422c1b
+  AppMetricaCrashes: f096e2cee83a46769685b850df846f5822c81b24
+  AppMetricaEncodingUtils: 3b7d0aafefbc9a0ae84515a4b381d0a576f944f2
+  AppMetricaHostState: 280370ecaf3096d4ff313bb7c13fb13252ae99e7
+  AppMetricaLog: 7f5b21edad9e93e12d5d8e2aeafd17cbc2befb2b
+  AppMetricaNetwork: 070f7ce9fcad0e97d762d76ed7616236f9c73417
+  AppMetricaPlatform: 36742fdd5e4290ab923cf5ede28612dae96a6671
+  AppMetricaProtobufUtils: 37f172ca2fffacba2f0d564308c873bba4726b88
+  AppMetricaStorageUtils: 4de179f2354946734cc7c407322398f5276e3305
+  AppMetricaWebKit: 271bdf19ac5473df925213ec80d330805ed96818
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  FMobileSdk: a7b555198f03785af1a6064db57545c49694c1cf
+  FunctionalSwift: 89f68db7d8cf103a4dc0878fbaa007a2a5532485
+  KSCrash: 593ec373759e4c1bce381421a627326a20d2dc66
+  MoneyAuth: b845b798d4733292fb573de5e97f3dab06e28fc0
+  SPaySDK: 1015f868b6e9255457704cd6a3d051829263661a
+  yookassa_payments_flutter: d9d7737054c84600e89105137c072b318a3b2e2b
+  YooKassaPayments: 547d511299530a400f33303e48f337ce4d0a7aa8
+  YooKassaPaymentsApi: 88ecca54eaf785787eeb1682f352016757ec0cdc
+  YooKassaWalletApi: 034a9d4f122557377ae3b9284e6292603fb38e6b
+  YooMoneyCoreApi: f53a22898878aab2f07449351a8a08f4918a6100
+  YooMoneySessionProfiler: f4ac772cb6675f1200efbde75d69126eb4c867e6
+  YooMoneyUI: 7332c851831398441dc841bb6474322ee5b8883d
+
+PODFILE CHECKSUM: d83a67078f664dc9b52d32635e3e488dc83a611b
+
+COCOAPODS: 1.15.2
