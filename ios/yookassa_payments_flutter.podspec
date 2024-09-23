@@ -11,7 +11,7 @@ Flutter SDK from yoomoney
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'YooKassaPayments', '6.18.0'
+  s.dependency 'YooKassaPayments'
 
   s.platform = :ios, '14.0'
 

@@ -1,72 +1,72 @@
 PODS:
-  - AppMetrica_FMDB (5.2.0)
-  - AppMetrica_Protobuf (5.2.0)
-  - AppMetricaAdSupport (5.2.0):
-    - AppMetricaCore (= 5.2.0)
-    - AppMetricaCoreExtension (= 5.2.0)
-  - AppMetricaAnalytics (5.2.0):
-    - AppMetricaAdSupport (= 5.2.0)
-    - AppMetricaCore (= 5.2.0)
-    - AppMetricaCrashes (= 5.2.0)
-    - AppMetricaWebKit (= 5.2.0)
-  - AppMetricaCore (5.2.0):
-    - AppMetrica_FMDB (= 5.2.0)
-    - AppMetrica_Protobuf (= 5.2.0)
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaEncodingUtils (= 5.2.0)
-    - AppMetricaHostState (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
-    - AppMetricaNetwork (= 5.2.0)
-    - AppMetricaPlatform (= 5.2.0)
-    - AppMetricaProtobufUtils (= 5.2.0)
-    - AppMetricaStorageUtils (= 5.2.0)
-  - AppMetricaCoreExtension (5.2.0):
-    - AppMetricaCore (= 5.2.0)
-    - AppMetricaStorageUtils (= 5.2.0)
-  - AppMetricaCoreUtils (5.2.0):
-    - AppMetricaLog (= 5.2.0)
-  - AppMetricaCrashes (5.2.0):
-    - AppMetricaCore (= 5.2.0)
-    - AppMetricaCoreExtension (= 5.2.0)
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaEncodingUtils (= 5.2.0)
-    - AppMetricaHostState (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
-    - AppMetricaPlatform (= 5.2.0)
-    - AppMetricaProtobufUtils (= 5.2.0)
-    - AppMetricaStorageUtils (= 5.2.0)
-    - KSCrash/Recording (= 1.17.0)
+  - AppMetrica_FMDB (5.8.0)
+  - AppMetrica_Protobuf (5.8.0)
+  - AppMetricaAdSupport (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCoreExtension (= 5.8.0)
+  - AppMetricaAnalytics (5.8.0):
+    - AppMetricaAdSupport (= 5.8.0)
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCrashes (= 5.8.0)
+    - AppMetricaWebKit (= 5.8.0)
+  - AppMetricaCore (5.8.0):
+    - AppMetrica_FMDB (= 5.8.0)
+    - AppMetrica_Protobuf (= 5.8.0)
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaEncodingUtils (= 5.8.0)
+    - AppMetricaHostState (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaNetwork (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+    - AppMetricaProtobufUtils (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+  - AppMetricaCoreExtension (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+  - AppMetricaCoreUtils (5.8.0):
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaCrashes (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCoreExtension (= 5.8.0)
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaEncodingUtils (= 5.8.0)
+    - AppMetricaHostState (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+    - AppMetricaProtobufUtils (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+    - KSCrash/Recording (= 2.0.0-rc.2)
     - KSCrash/Recording/Tools
-  - AppMetricaEncodingUtils (5.2.0):
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
-    - AppMetricaPlatform (= 5.2.0)
-  - AppMetricaHostState (5.2.0):
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
-  - AppMetricaLog (5.2.0)
-  - AppMetricaNetwork (5.2.0):
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
-    - AppMetricaPlatform (= 5.2.0)
-  - AppMetricaPlatform (5.2.0):
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
-  - AppMetricaProtobufUtils (5.2.0):
-    - AppMetrica_Protobuf (= 5.2.0)
-  - AppMetricaStorageUtils (5.2.0):
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
-  - AppMetricaWebKit (5.2.0):
-    - AppMetricaCore (= 5.2.0)
-    - AppMetricaCoreUtils (= 5.2.0)
-    - AppMetricaLog (= 5.2.0)
+  - AppMetricaEncodingUtils (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+  - AppMetricaHostState (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaLog (5.8.0)
+  - AppMetricaNetwork (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+  - AppMetricaPlatform (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaProtobufUtils (5.8.0):
+    - AppMetrica_Protobuf (= 5.8.0)
+  - AppMetricaStorageUtils (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaWebKit (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
   - Flutter (1.0.0)
   - FMobileSdk (2.0.0-1231)
   - FunctionalSwift (2.0.7)
-  - KSCrash/Recording (1.17.0):
-    - KSCrash/Recording/Tools (= 1.17.0)
-  - KSCrash/Recording/Tools (1.17.0)
+  - KSCrash/Recording (2.0.0-rc.2):
+    - KSCrash/Recording/Tools (= 2.0.0-rc.2)
+  - KSCrash/Recording/Tools (2.0.0-rc.2)
   - MoneyAuth (10.13.3):
     - FMobileSdk
     - FunctionalSwift (~> 2.0)
@@ -78,7 +78,7 @@ PODS:
     - Flutter
     - YooKassaPayments (= 6.18.0)
   - YooKassaPayments (6.18.0):
-    - AppMetricaAnalytics (~> 5.2.0)
+    - AppMetricaAnalytics (~> 5.8.0)
     - FMobileSdk (~> 2.0.0-1231)
     - MoneyAuth (~> 10.13.0)
     - SPaySDK (~> 1.0.8)
